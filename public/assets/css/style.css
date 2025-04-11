@@ -1,0 +1,70 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: #28a745;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  nav a {
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+  }
+
+  /* Rendre la barre de recherche et le filtre fixes lors du défilement */
+.sticky-top {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Espacement entre la barre de recherche et le filtre */
+  input#searchInput {
+    margin-right: 10px;
+  }
+  
+  select#fileFilter {
+    margin-left: 10px;
+  }
+  
+  /* Assurez-vous que la largeur de la barre de recherche et du filtre est correcte */
+  .d-flex .form-control {
+    flex: 1;
+  }
+  
+  .d-flex .form-select {
+    flex: 0.3;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .card img {
+    height: 150px;
+    object-fit: cover;
+  }
+  
