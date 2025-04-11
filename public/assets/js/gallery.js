@@ -29,6 +29,7 @@ function renderFiles(files) {
         }
         <div class="card-footer text-center">
           <a href="${f.url}" target="_blank" class="btn btn-sm btn-outline-primary">Ouvrir</a>
+          <a href="${f.url}" target="_blank" class="btn btn-sm btn-outline-success" download>Telecharger</a>
         </div>
       </div>`;
     container.appendChild(card);
